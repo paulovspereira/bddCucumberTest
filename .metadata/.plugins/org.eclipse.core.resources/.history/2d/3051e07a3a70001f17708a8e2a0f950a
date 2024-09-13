@@ -1,0 +1,12 @@
+package br.ce.scaquino.services;
+
+import br.ce.scaquino.entidades.Filme;
+import br.ce.scaquino.entidades.NotaAluguel;
+
+public class AluguelService {
+
+	public NotaAluguel alugar(Filme filme) {
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package br.ce.scaquino.services;
+
+import br.ce.scaquino.entidades.Filme;
+
+public class AluguelService {
+
+	public void alugar(Filme filme) {
+		
+	}
+
+}

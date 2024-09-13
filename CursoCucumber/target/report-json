@@ -1,0 +1,413 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Deve inserir uma conta com sucesso",
+        "description": "",
+        "id": "cadastro-de-contas;deve-inserir-uma-conta-com-sucesso",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "que estou acessando a aplicação",
+            "match": {
+              "location": "InserirContasSteps.queEstouAcessandoAAplicação()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "informo o usuário \"paulo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "paulo",
+                  "offset": 19
+                }
+              ],
+              "location": "InserirContasSteps.informoOUsuário(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "a senha \"a\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a",
+                  "offset": 9
+                }
+              ],
+              "location": "InserirContasSteps.aSenha(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "seleciono entrar",
+            "match": {
+              "location": "InserirContasSteps.selecionoEntrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "visualizo a página inicial",
+            "match": {
+              "location": "InserirContasSteps.visualizoAPáginaInicial()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "seleciono Contas",
+            "match": {
+              "location": "InserirContasSteps.selecionoContas()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "seleciono Adicionar",
+            "match": {
+              "location": "InserirContasSteps.selecionoAdicionar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "informo a conta \"Conta de Teste\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Conta de Teste",
+                  "offset": 17
+                }
+              ],
+              "location": "InserirContasSteps.informoAConta(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "seleciono Salvar",
+            "match": {
+              "location": "InserirContasSteps.selecionoSalvar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "a conta é inserida com sucesso",
+            "match": {
+              "location": "InserirContasSteps.aContaÉInseridaComSucesso()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Não deve inserir uma conta sem nome",
+        "description": "",
+        "id": "cadastro-de-contas;não-deve-inserir-uma-conta-sem-nome",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "que estou acessando a aplicação",
+            "match": {
+              "location": "InserirContasSteps.queEstouAcessandoAAplicação()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "informo o usuário \"paulo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "paulo",
+                  "offset": 19
+                }
+              ],
+              "location": "InserirContasSteps.informoOUsuário(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "a senha \"p\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "p",
+                  "offset": 9
+                }
+              ],
+              "location": "InserirContasSteps.aSenha(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "seleciono entrar",
+            "match": {
+              "location": "InserirContasSteps.selecionoEntrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "visualizo a página inicial",
+            "match": {
+              "location": "InserirContasSteps.visualizoAPáginaInicial()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "seleciono Contas",
+            "match": {
+              "location": "InserirContasSteps.selecionoContas()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "seleciono Adicionar",
+            "match": {
+              "location": "InserirContasSteps.selecionoAdicionar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "seleciono Salvar",
+            "match": {
+              "location": "InserirContasSteps.selecionoSalvar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "sou notificar que o nome da conta é obrigatório",
+            "match": {
+              "location": "InserirContasSteps.souNotificarQueONomeDaContaÉObrigatório()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Não deve inserir uma conta com nome já existente",
+        "description": "",
+        "id": "cadastro-de-contas;não-deve-inserir-uma-conta-com-nome-já-existente",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "que estou acessando a aplicação",
+            "match": {
+              "location": "InserirContasSteps.queEstouAcessandoAAplicação()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "informo o usuário \"a@a\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a@a",
+                  "offset": 19
+                }
+              ],
+              "location": "InserirContasSteps.informoOUsuário(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "a senha \"a\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a",
+                  "offset": 9
+                }
+              ],
+              "location": "InserirContasSteps.aSenha(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "seleciono entrar",
+            "match": {
+              "location": "InserirContasSteps.selecionoEntrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "visualizo a página inicial",
+            "match": {
+              "location": "InserirContasSteps.visualizoAPáginaInicial()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "seleciono Contas",
+            "match": {
+              "location": "InserirContasSteps.selecionoContas()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "seleciono Adicionar",
+            "match": {
+              "location": "InserirContasSteps.selecionoAdicionar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "informo a conta \"Conta de Teste\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Conta de Teste",
+                  "offset": 17
+                }
+              ],
+              "location": "InserirContasSteps.informoAConta(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "seleciono Salvar",
+            "match": {
+              "location": "InserirContasSteps.selecionoSalvar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 43,
+            "name": "sou notificado que já existe uma conta com esse nome",
+            "match": {},
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro de contas",
+    "description": "\r\nComo um usuário \r\nGostaria de cadastrar contas\r\nPara que eu possa distribuir meu dinheiro de uma forma mais organizada",
+    "id": "cadastro-de-contas",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/feature/cadastro_conta.feature"
+  }
+]

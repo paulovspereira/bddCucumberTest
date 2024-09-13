@@ -1,0 +1,11 @@
+package br.ce.scaquino.entidades;
+
+public class Filme {
+
+	private int estoque;
+	
+	public void setEstoque(int arg1) {
+		this.estoque = arg1;	
+	}
+
+}

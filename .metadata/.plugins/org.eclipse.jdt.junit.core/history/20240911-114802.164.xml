@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="CursoCucumber" tests="10" started="10" failures="0" errors="0" ignored="1">
+  <testsuite name="br.ce.wcaquino.runners.Runner" time="0.033">
+    <testsuite name="Funcionalidade: Alugar um Filme" time="0.033">
+      <testsuite name="Cenário: Deve alugar um filme com sucesso" time="0.02">
+        <testcase name="Dado um filme com estoque de 2 unidades" classname="Cenário: Deve alugar um filme com sucesso" time="0.001"/>
+        <testcase name="E que o preço de aluguel seja R$ 3" classname="Cenário: Deve alugar um filme com sucesso" time="0.002"/>
+        <testcase name="Quando alugar" classname="Cenário: Deve alugar um filme com sucesso" time="0.011"/>
+        <testcase name="Então o preço do aluguel será R$ 3" classname="Cenário: Deve alugar um filme com sucesso" time="0.003"/>
+        <testcase name="E a data de entrega será no dia seguinte" classname="Cenário: Deve alugar um filme com sucesso" time="0.0"/>
+        <testcase name="E o estoque do filme será 1 unidade" classname="Cenário: Deve alugar um filme com sucesso" time="0.002"/>
+      </testsuite>
+      <testsuite name="Cenário: Não deve alugar filme sem estoque" time="0.009" incomplete="true">
+        <skipped/>
+        <testcase name="Dado um filme com estoque de 0 unidades" classname="Cenário: Não deve alugar filme sem estoque" time="0.005"/>
+        <testcase name="Quando alugar" classname="Cenário: Não deve alugar filme sem estoque" time="0.001"/>
+        <testcase name="Então não será possível por falta de estoque" classname="Cenário: Não deve alugar filme sem estoque" time="0.003"/>
+        <testcase name="E o estoque do filme sera 0 unidades" classname="Cenário: Não deve alugar filme sem estoque" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

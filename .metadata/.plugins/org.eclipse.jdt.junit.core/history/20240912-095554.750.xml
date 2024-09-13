@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="CursoCucumber" tests="19" started="19" failures="0" errors="4" ignored="17">
+  <testsuite name="br.ce.wcaquino.runners.Runner" time="0.201">
+    <testsuite name="Funcionalidade: Cadastro de contas" time="0.201">
+      <testsuite name="Cenário: Deve inserir uma conta com sucesso" time="0.014" incomplete="true">
+        <error>java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html&#13;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)&#13;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:124)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)&#13;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;
+	at br.ce.scaquino.steps.InserirContasSteps.queEstouAcessandoAAplicação(InserirContasSteps.java:20)&#13;
+	at ✽.Dado que estou acessando a aplicação(src/test/resources/feature/cadastro_conta.feature:9)&#13;
+&#13;
+</error>
+        <testcase name="Dado que estou acessando a aplicação" classname="Cenário: Deve inserir uma conta com sucesso" time="0.012">
+          <error>java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html&#13;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)&#13;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:124)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)&#13;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;
+	at br.ce.scaquino.steps.InserirContasSteps.queEstouAcessandoAAplicação(InserirContasSteps.java:20)&#13;
+	at ✽.Dado que estou acessando a aplicação(src/test/resources/feature/cadastro_conta.feature:9)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="Quando informo o usuário &quot;paulo&quot;" classname="Cenário: Deve inserir uma conta com sucesso" time="0.002" ignored="true"/>
+        <testcase name="E a senha &quot;a&quot;" classname="Cenário: Deve inserir uma conta com sucesso" time="0.003" ignored="true"/>
+        <testcase name="E seleciono entrar" classname="Cenário: Deve inserir uma conta com sucesso" time="0.009" ignored="true"/>
+        <testcase name="Então visualizo a página inicial" classname="Cenário: Deve inserir uma conta com sucesso" time="0.003" ignored="true"/>
+        <testcase name="Quando seleciono Contas" classname="Cenário: Deve inserir uma conta com sucesso" time="0.029" ignored="true"/>
+        <testcase name="E seleciono Adicionar" classname="Cenário: Deve inserir uma conta com sucesso" time="0.006" ignored="true"/>
+        <testcase name="E informo a conta &quot;Conta de Teste&quot;" classname="Cenário: Deve inserir uma conta com sucesso" time="0.011" ignored="true"/>
+        <testcase name="E seleciono Salvar" classname="Cenário: Deve inserir uma conta com sucesso" time="0.006" ignored="true"/>
+        <testcase name="Então a conta é inserida com sucesso" classname="Cenário: Deve inserir uma conta com sucesso" time="0.001" ignored="true"/>
+      </testsuite>
+      <testsuite name="Cenário: Não deve inserir uma conta sem nome" time="0.001" incomplete="true">
+        <error>java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html&#13;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)&#13;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:124)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)&#13;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;
+	at br.ce.scaquino.steps.InserirContasSteps.queEstouAcessandoAAplicação(InserirContasSteps.java:20)&#13;
+	at ✽.Dado que estou acessando a aplicação(src/test/resources/feature/cadastro_conta.feature:22)&#13;
+&#13;
+</error>
+        <testcase name="Dado que estou acessando a aplicação" classname="Cenário: Não deve inserir uma conta sem nome" time="0.0">
+          <error>java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html&#13;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)&#13;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:124)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)&#13;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;
+	at br.ce.scaquino.steps.InserirContasSteps.queEstouAcessandoAAplicação(InserirContasSteps.java:20)&#13;
+	at ✽.Dado que estou acessando a aplicação(src/test/resources/feature/cadastro_conta.feature:22)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="Quando informo o usuário &quot;paulo&quot;" classname="Cenário: Não deve inserir uma conta sem nome" time="0.009" ignored="true"/>
+        <testcase name="E a senha &quot;p&quot;" classname="Cenário: Não deve inserir uma conta sem nome" time="0.002" ignored="true"/>
+        <testcase name="E seleciono entrar" classname="Cenário: Não deve inserir uma conta sem nome" time="0.004" ignored="true"/>
+        <testcase name="Então visualizo a página inicial" classname="Cenário: Não deve inserir uma conta sem nome" time="0.002" ignored="true"/>
+        <testcase name="Quando seleciono Contas" classname="Cenário: Não deve inserir uma conta sem nome" time="0.003" ignored="true"/>
+        <testcase name="E seleciono Adicionar" classname="Cenário: Não deve inserir uma conta sem nome" time="0.002" ignored="true"/>
+        <testcase name="E seleciono Salvar" classname="Cenário: Não deve inserir uma conta sem nome" time="0.003" ignored="true"/>
+        <testcase name="Então sou notificar que o nome da conta é obrigatório" classname="Cenário: Não deve inserir uma conta sem nome" time="0.038" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

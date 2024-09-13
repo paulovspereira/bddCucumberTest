@@ -1,0 +1,22 @@
+package br.ce.wcaquino.runners;
+import org.junit.runner.RunWith;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.SnippetType;
+import cucumber.api.junit.Cucumber;
+
+//Junit do cucumber
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		features = "src/test/resources/feature/cadastro_conta.feature",
+		glue = "br.ce.scaquino.steps",
+		tags = {"~@ignore"},
+		plugin = {"pretty", "html:target/report-html", "json:target/report-json"}, // Relatório forma de texto
+		monochrome = true,
+		snippets = SnippetType.CAMELCASE,
+		dryRun = true,
+		strict = false
+	)
+public class Runner {
+
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Deve alugar um filme com sucesso",
+        "description": "",
+        "id": "alugar-um-filme;deve-alugar-um-filme-com-sucesso",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 136266300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "um filme com estoque de 2 unidades",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 24
+                }
+              ],
+              "location": "AlugarFilmesSteps.umFilmeComEstoqueDeUnidades(int)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 111500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que o preço de aluguel seja R$ 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 31
+                }
+              ],
+              "location": "AlugarFilmesSteps.queOPreçoDeAluguelSejaR$(int)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1387800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "alugar",
+            "match": {
+              "location": "AlugarFilmesSteps.alugar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1615500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o preço do aluguel será R$ 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 27
+                }
+              ],
+              "location": "AlugarFilmesSteps.oPreçoDoAluguelSeráR$(int)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 796700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "a data de entrega será no dia seguinte",
+            "match": {
+              "location": "AlugarFilmesSteps.aDataDeEntregaSeráNoDiaSeguinte()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 111000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o estoque do filme será 1 unidade",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 24
+                }
+              ],
+              "location": "AlugarFilmesSteps.oEstoqueDoFilmeSeráUnidade(int)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Não deve alugar filme sem estoque",
+        "description": "",
+        "id": "alugar-um-filme;não-deve-alugar-filme-sem-estoque",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 119300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "um filme com estoque de 0 unidades",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 24
+                }
+              ],
+              "location": "AlugarFilmesSteps.umFilmeComEstoqueDeUnidades(int)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 84800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "alugar",
+            "match": {
+              "location": "AlugarFilmesSteps.alugar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 55300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "não será possível por falta de estoque",
+            "match": {
+              "location": "AlugarFilmesSteps.nãoSeráPossívelPorFaltaDeEstoque()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 97200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "o estoque do filme será 0 unidade",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 24
+                }
+              ],
+              "location": "AlugarFilmesSteps.oEstoqueDoFilmeSeráUnidade(int)"
+            },
+            "keyword": "E "
+          }
+        ]
+      }
+    ],
+    "name": "Alugar um Filme",
+    "description": "Como um usuário\r\nEu quero cadastrar alugueis de filmes\r\nPara controlar preços e datas de entrega",
+    "id": "alugar-um-filme",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/feature/aluga_filme.feature"
+  }
+]

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="CursoCucumber" tests="12" started="12" failures="0" errors="0" ignored="3">
+  <testsuite name="Runner" time="0.077">
+    <testsuite name="Funcionalidade: Aprender Cucumber" time="0.077">
+      <testsuite name="Cenário: Deve executar especificação" time="0.012">
+        <testcase name="Dado que criei o arquivo corretamente" classname="Cenário: Deve executar especificação" time="0.004"/>
+        <testcase name="Quando executá-lo novamente" classname="Cenário: Deve executar especificação" time="0.002"/>
+        <testcase name="Então a especificação deve finalizar com sucesso" classname="Cenário: Deve executar especificação" time="0.006"/>
+      </testsuite>
+      <testsuite name="Cenário: Deve incrementar o contador" time="0.025">
+        <testcase name="Dado que o valor do contador é 15" classname="Cenário: Deve incrementar o contador" time="0.003"/>
+        <testcase name="Quando eu incremento em 3" classname="Cenário: Deve incrementar o contador" time="0.022"/>
+        <testcase name="Então o valor do contadaro será 18" classname="Cenário: Deve incrementar o contador" time="0.0"/>
+      </testsuite>
+      <testsuite name="Cenário: Deve incrementar o contador" time="0.003">
+        <testcase name="Dado que o valor do contador é 123" classname="Cenário: Deve incrementar o contador" time="0.001"/>
+        <testcase name="Quando eu incremento em 35" classname="Cenário: Deve incrementar o contador" time="0.002"/>
+        <testcase name="Então o valor do contadaro será 158" classname="Cenário: Deve incrementar o contador" time="0.0"/>
+      </testsuite>
+      <testsuite name="Cenário: Deve calcular atraso na entrega" time="0.001" incomplete="true">
+        <skipped/>
+        <testcase name="Dado que a entrega é dia 05/04/2018" classname="Cenário: Deve calcular atraso na entrega" time="0.0" ignored="true"/>
+        <testcase name="Quando a entrega atrasar 2 dias" classname="Cenário: Deve calcular atraso na entrega" time="0.001" ignored="true"/>
+        <testcase name="Então a entrega será efetuada em 07/04/2018" classname="Cenário: Deve calcular atraso na entrega" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

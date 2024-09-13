@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="CursoCucumber" tests="10" started="10" failures="0" errors="0" ignored="9">
+  <testsuite name="br.ce.wcaquino.runners.Runner" time="0.036">
+    <testsuite name="Funcionalidade: Cadastro de contas" time="0.036">
+      <testsuite name="Cenário: Deve inserir uma conta com sucesso" time="0.036" incomplete="true">
+        <skipped/>
+        <testcase name="Dado que estou acessando a aplicação" classname="Cenário: Deve inserir uma conta com sucesso" time="0.01"/>
+        <testcase name="Quando informo o usuário &quot;paulo&quot;" classname="Cenário: Deve inserir uma conta com sucesso" time="0.002" ignored="true"/>
+        <testcase name="E a senha &quot;a&quot;" classname="Cenário: Deve inserir uma conta com sucesso" time="0.001" ignored="true"/>
+        <testcase name="E seleciono entrar" classname="Cenário: Deve inserir uma conta com sucesso" time="0.003" ignored="true"/>
+        <testcase name="Então visualizo a página inicial" classname="Cenário: Deve inserir uma conta com sucesso" time="0.005" ignored="true"/>
+        <testcase name="Quando seleciono Contas" classname="Cenário: Deve inserir uma conta com sucesso" time="0.004" ignored="true"/>
+        <testcase name="E seleciono Adicionar" classname="Cenário: Deve inserir uma conta com sucesso" time="0.003" ignored="true"/>
+        <testcase name="E informo a conta &quot;Conta de Teste&quot;" classname="Cenário: Deve inserir uma conta com sucesso" time="0.001" ignored="true"/>
+        <testcase name="E seleciono Salvar" classname="Cenário: Deve inserir uma conta com sucesso" time="0.004" ignored="true"/>
+        <testcase name="Então a conta é inserida com sucesso" classname="Cenário: Deve inserir uma conta com sucesso" time="0.003" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

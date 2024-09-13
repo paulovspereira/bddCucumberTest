@@ -1,0 +1,27 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class TesteAmbiente {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * System.setProperty("webdriver.chrome.driver",
+		 * "C:\\Users\\Paulo_Pereira\\Desktop\\chromedriver_win32");
+		 * 
+		 * WebDriver driver = new ChromeDriver();
+		 * 
+		 * driver.get("https://seubarriga.wcaquino.me");
+		 */
+		
+		//System.setProperty("webdriver.Chrome.driver", "C:/Program Files/Selenium/chromedriver_win32/chromedriver.exe");
+		System.setProperty("webdriver.Chrome.driver","C:\\Program Files\\Selenium\\chromedriver.exe");
+		
+		// Here we are creating object of web driver
+		WebDriver driver = new ChromeDriver();
+		
+		// we are navifating to google.com with the help og get menthod
+		driver.get("https://google.com");
+	}
+
+}

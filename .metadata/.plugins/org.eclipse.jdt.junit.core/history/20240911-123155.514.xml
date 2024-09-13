@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="CursoCucumber" tests="17" started="17" failures="2" errors="2" ignored="4">
+  <testsuite name="br.ce.wcaquino.runners.Runner" time="0.037">
+    <testsuite name="Funcionalidade: Alugar um Filme" time="0.037">
+      <testsuite name="Cenário: Deve alugar um filme com sucesso" time="0.011" incomplete="true">
+        <failure>junit.framework.AssertionFailedError: expected:&lt;3&gt; but was:&lt;0&gt;&#13;
+	at junit.framework.Assert.fail(Assert.java:57)&#13;
+	at junit.framework.Assert.failNotEquals(Assert.java:329)&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:78)&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:234)&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:241)&#13;
+	at br.ce.scaquino.steps.AlugarFilmesSteps.oPreçoDoAluguelSeráR$(AlugarFilmesSteps.java:51)&#13;
+	at ✽.Então o preço do aluguel será R$ 3(src/test/resources/feature/aluga_filme.feature:12)&#13;
+&#13;
+</failure>
+        <testcase name="Dado um filme com estoque de 2 unidades" classname="Cenário: Deve alugar um filme com sucesso" time="0.001"/>
+        <testcase name="E que o preço de aluguel seja R$ 3" classname="Cenário: Deve alugar um filme com sucesso" time="0.003"/>
+        <testcase name="Quando alugar" classname="Cenário: Deve alugar um filme com sucesso" time="0.003"/>
+        <testcase name="Então o preço do aluguel será R$ 3" classname="Cenário: Deve alugar um filme com sucesso" time="0.003">
+          <failure>junit.framework.AssertionFailedError: expected:&lt;3&gt; but was:&lt;0&gt;&#13;
+	at junit.framework.Assert.fail(Assert.java:57)&#13;
+	at junit.framework.Assert.failNotEquals(Assert.java:329)&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:78)&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:234)&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:241)&#13;
+	at br.ce.scaquino.steps.AlugarFilmesSteps.oPreçoDoAluguelSeráR$(AlugarFilmesSteps.java:51)&#13;
+	at ✽.Então o preço do aluguel será R$ 3(src/test/resources/feature/aluga_filme.feature:12)&#13;
+&#13;
+</failure>
+        </testcase>
+        <testcase name="E a data de entrega será no dia seguinte" classname="Cenário: Deve alugar um filme com sucesso" time="0.0" ignored="true"/>
+        <testcase name="E o estoque do filme será 1 unidade" classname="Cenário: Deve alugar um filme com sucesso" time="0.0" ignored="true"/>
+      </testsuite>
+      <testsuite name="Cenário: Não deve alugar filme sem estoque" time="0.004">
+        <testcase name="Dado um filme com estoque de 0 unidades" classname="Cenário: Não deve alugar filme sem estoque" time="0.001"/>
+        <testcase name="Quando alugar" classname="Cenário: Não deve alugar filme sem estoque" time="0.002"/>
+        <testcase name="Então não será possível por falta de estoque" classname="Cenário: Não deve alugar filme sem estoque" time="0.0"/>
+        <testcase name="E o estoque do filme será 0 unidade" classname="Cenário: Não deve alugar filme sem estoque" time="0.001"/>
+      </testsuite>
+      <testsuite name="Cenário: Deve dar condições especiais para categoria extendida" time="0.005" incomplete="true">
+        <error>java.lang.NullPointerException&#13;
+	at br.ce.scaquino.steps.AlugarFilmesSteps.oPreçoDoAluguelSeráR$(AlugarFilmesSteps.java:51)&#13;
+	at ✽.Então o preço do aluguel será R$ 8(src/test/resources/feature/aluga_filme.feature:27)&#13;
+&#13;
+</error>
+        <testcase name="Dado um filme com estoque 2 unidades" classname="Cenário: Deve dar condições especiais para categoria extendida" time="0.002"/>
+        <testcase name="E que o preço de aluguel seja R$ 4" classname="Cenário: Deve dar condições especiais para categoria extendida" time="0.001"/>
+        <testcase name="E que o tipo do aluguel seja extendido" classname="Cenário: Deve dar condições especiais para categoria extendida" time="0.0"/>
+        <testcase name="Quando alugar" classname="Cenário: Deve dar condições especiais para categoria extendida" time="0.001"/>
+        <testcase name="Então o preço do aluguel será R$ 8" classname="Cenário: Deve dar condições especiais para categoria extendida" time="0.0">
+          <error>java.lang.NullPointerException&#13;
+	at br.ce.scaquino.steps.AlugarFilmesSteps.oPreçoDoAluguelSeráR$(AlugarFilmesSteps.java:51)&#13;
+	at ✽.Então o preço do aluguel será R$ 8(src/test/resources/feature/aluga_filme.feature:27)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="E a data de entrega será em 3 dias" classname="Cenário: Deve dar condições especiais para categoria extendida" time="0.001" ignored="true"/>
+        <testcase name="E a pontuação recebida será de 2 pontos" classname="Cenário: Deve dar condições especiais para categoria extendida" time="0.006" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

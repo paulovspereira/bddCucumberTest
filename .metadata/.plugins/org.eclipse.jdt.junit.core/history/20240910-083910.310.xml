@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="CursoCucumber" tests="6" started="6" failures="2" errors="0" ignored="0">
+  <testsuite name="Runner" time="0.209">
+    <testsuite name="Funcionalidade: Aprender Cucumber" time="0.209">
+      <testsuite name="Cenário: Deve executar especificação" time="0.001">
+        <testcase name="Dado que criei o arquivo corretamente" classname="Cenário: Deve executar especificação" time="0.0"/>
+        <testcase name="Quando executá-lo novamente" classname="Cenário: Deve executar especificação" time="0.001"/>
+        <testcase name="Então a especificação deve finalizar com sucesso" classname="Cenário: Deve executar especificação" time="0.0"/>
+      </testsuite>
+      <testsuite name="Cenário: Deve incrementar o contador" time="0.189" incomplete="true">
+        <failure>java.lang.AssertionError&#13;
+	at org.junit.Assert.fail(Assert.java:86)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:41)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:52)&#13;
+	at AprenderCucumber.o_valor_do_contadaro_será(AprenderCucumber.java:39)&#13;
+	at ✽.Então o valor do contadaro será 18(aprender_cucumber.feature:15)&#13;
+&#13;
+</failure>
+        <testcase name="Dado que o valor do contador é 15" classname="Cenário: Deve incrementar o contador" time="0.002"/>
+        <testcase name="Quando eu incremento em 5" classname="Cenário: Deve incrementar o contador" time="0.008"/>
+        <testcase name="Então o valor do contadaro será 18" classname="Cenário: Deve incrementar o contador" time="0.179">
+          <failure>java.lang.AssertionError&#13;
+	at org.junit.Assert.fail(Assert.java:86)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:41)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:52)&#13;
+	at AprenderCucumber.o_valor_do_contadaro_será(AprenderCucumber.java:39)&#13;
+	at ✽.Então o valor do contadaro será 18(aprender_cucumber.feature:15)&#13;
+&#13;
+</failure>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
