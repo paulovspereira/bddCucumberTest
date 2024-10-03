@@ -5,12 +5,12 @@
 tradicional de teste. O curso ensina os fudamento do CUCUMBER com BDD, os detalhes e palavras chaves do GHERKIN. Alem disso como podemos utilizá-lo no desenvolvimento de testes a nível unitário
 e funcional. Sendo que, para os testes funcionais usei os testes web com o uso do SELENIUM.
 
-<h2> Tecnologia utilizada</h2>
+<h2> Tecnologia utilizadas</h2>
 
 ## Linguagem de Porgramação
     - Java
 
-## Framework
+## Frameworks
     - Selenium 
     - Junit
 
